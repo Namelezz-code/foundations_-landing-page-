@@ -99,6 +99,32 @@ button {
     border-radius: 10px;
 }
 .subtext {
-    font-size: small;
+    font-size:medium;
     color:#6f2232;
+}
+.section3 {
+    display: flex;
+    background-color: #950740;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 80px 200px 80px 200px;
+}
+.qoute {
+    font-size: 36px;
+    color: #c7435d;
+}
+.author {
+    font-size:18px;
+    color: #2e0e15;
+    padding-left: 700px;
+}
+
+.section4 {
+    background-color: #c3073f;
+    display: flex;
+    flex-direction: row;
+} 
+.call {
+    display: flex;
+    flex-direction: row;
 }
