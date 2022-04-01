@@ -60,7 +60,8 @@ a {
 button {
     padding: 5px 15px 5px 15px;
     border-radius: 7px;
-    background-color: #163f50;
+    background-color: aqua;
+    border-color: #c3073f;
 }
 
 .section2 {
@@ -123,8 +124,35 @@ button {
     background-color: #c3073f;
     display: flex;
     flex-direction: row;
+    padding: 70px;
+    justify-content: center;
+    align-items: center;
 } 
 .call {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    width: 750px;
+}
+
+.bottom {
+    display: flex;
+    background-color: aqua;
+    padding: 40px 80px 40px 80px;
+    align-items: flex-end;
+    border-radius: 10px;
+}
+.to {
+    font-size: 25px;
+    color: #c7435d;
+}
+.to2 {
+    font-size: small;
+    color: #c7435d;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #1A1A1D;
 }
